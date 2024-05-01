@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
-import Button from '../../Tools/Button';
-import Heading from '../../Tools/Heading';
+import Button from '../Tools/Button';
+import Heading from '../Tools/Heading';
 
 export default function Testimonials() {
   return (
