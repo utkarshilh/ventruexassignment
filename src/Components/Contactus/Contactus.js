@@ -1,9 +1,17 @@
 import React from 'react'
-
+import Heading from '../../Tools/Heading'
+import Left from './Left'
+import Right from './Right'
 export default function Contact() {
     return (
         <div>
-            <h1>This is Contact section</h1>
+
+            <div className="text-center mx-auto py-12">
+                <Heading name="CONTACT US" />
+            </div>
+            <Left />
+            {/* <Right /> */}
         </div>
+
     )
 }
