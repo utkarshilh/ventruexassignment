@@ -8,7 +8,7 @@ export default function Testimonials() {
     <div style={{ backgroundColor: 'rgb(254,243,199)' }}>
       <div className="container mx-auto p-12" >
         <div className="text-center">
-          <Heading name="TESTYMONIALS" gbcolor="text-red-950" />
+          <Heading name="TESTYMONIALS" />
         </div>
         <div className="grid grid-cols-2 gap-2">
           <div>
