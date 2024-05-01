@@ -9,7 +9,8 @@ export default function Contact() {
             <div className="text-center mx-auto py-12">
                 <Heading name="CONTACT US" />
             </div>
-            <Left />
+            <Left style={{ marginTop: '-13rem' }} />
+
             {/* <Right /> */}
         </div>
 
