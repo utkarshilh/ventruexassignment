@@ -1,12 +1,10 @@
 import { MailIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline';
 import React from 'react'
 
-
 export default function Left() {
     return (
         <div>
-
-            <div className="flex justify-center items-center space-x-14">
+            <div className="flex justify-center space-x-14">
                 <div className="flex flex-col items-center">
                     <div className="container mx-auto">
                         <div>
@@ -40,21 +38,21 @@ export default function Left() {
                     </div>
                 </div>
 
-                <div className="class2 ">
+                <div className="class2">
                     <div className="flex items-center space-x-4">
                         <div className="flex items-center space-x-2">
-                            <MailIcon className="w-6 h-6 text-red-950 my-1" />
+                            <MailIcon className="w-6 h-6 text-red-950 my-3" />
                             <span className="text-gray-600">yourGmailID@gmail.com</span>
                         </div>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <div className="flex items-center space-x-2 my-1">
+                        <div className="flex items-center space-x-2 my-3">
                             <PhoneIcon className="w-6 h-6 text-red-950" />
                             <span className="text-gray-600">+1234567890</span>
                         </div>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <div className="flex items-center space-x-2 my-1">
+                        <div className="flex items-center space-x-2 my-3">
                             <LocationMarkerIcon className="w-6 h-6 text-red-950" />
                             <span className="text-gray-600">Your Address</span>
                         </div>
@@ -62,6 +60,5 @@ export default function Left() {
                 </div>
             </div>
         </div>
-
     )
 }
