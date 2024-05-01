@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../../Tools/Heading'
+import Heading from '../Tools/Heading'
 import Left from './Left'
 import Right from './Right'
 export default function Contact() {
