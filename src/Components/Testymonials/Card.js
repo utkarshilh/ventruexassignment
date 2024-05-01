@@ -32,13 +32,16 @@ const Card = ({ title, rating, description }) => {
     return (
         <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md">
             <div className="p-4">
-                <h2 className="text-lg font-semibold text-left text-gray-800">
+                <h2 className="text-lg font-semibold text-left text-red-950">
                     {title}
                 </h2>
 
                 <p className="text-gray-600 mt-2">{description}</p>
                 <StarRating rating={rating} />
+
             </div>
+
+
         </div>
     );
 };
